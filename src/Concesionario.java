@@ -12,10 +12,10 @@ public class Concesionario {
 
     // Método para realizar una venta de un vehículo
     public void realizarVenta(String codigoVehiculo, double monto, String apellido, String nombre, String documento) {
-        Vehiculo vehiculoVendido = *****;
+        Vehiculo vehiculoVendido = null;
         // Buscar el vehículo en el inventario
         for (Vehiculo v : inventario) {
-            if (v.getCodigo().equals(codigo*******)) {
+            if (v.getCodigo().equals(codigoVehiculo)) {
                 vehiculoVendido = v;
                 break;
             }
